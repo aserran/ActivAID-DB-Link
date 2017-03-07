@@ -1,0 +1,6 @@
+c:\users\tony\documents\visual studio 2017\Projects\ActivAID DB Link\ActivAID DB Link\obj\Debug\ActivAID DB Link.csprojResolveAssemblyReference.cache
+c:\users\tony\documents\visual studio 2017\Projects\ActivAID DB Link\ActivAID DB Link\obj\Debug\ActivAID DB Link.exe
+c:\users\tony\documents\visual studio 2017\Projects\ActivAID DB Link\ActivAID DB Link\bin\Debug\ActivAID DB Link.exe.config
+c:\users\tony\documents\visual studio 2017\Projects\ActivAID DB Link\ActivAID DB Link\bin\Debug\ActivAID DB Link.exe
+c:\users\tony\documents\visual studio 2017\Projects\ActivAID DB Link\ActivAID DB Link\bin\Debug\ActivAID DB Link.pdb
+c:\users\tony\documents\visual studio 2017\Projects\ActivAID DB Link\ActivAID DB Link\obj\Debug\ActivAID DB Link.pdb

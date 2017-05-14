@@ -7,14 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
+using ActivAID;
 
-namespace Test
+
+namespace Parser
 {
     class ParsedCHM
     {
-        public List<List<Element>> blocks {get;}//= new List<List<Element>>(); //breadth first from root
+        public List<List<Element>> blocks { get; set; }//= new List<List<Element>>(); //breadth first from root
         private List<Element> buff; //= new List<Element>();
-        public List<string> hrefs {get;} //= new List<string>();
+        public List<string> hrefs { get; set; } //= new List<string>();
         private string filePath;
         public string title;
 
@@ -164,8 +166,7 @@ namespace Test
         public ParsedCHM(string file)
         {
 			buff = new List<Element>();
-            blocks = new List<List<Element>>();
-            hrefs = new List<string>(); 
+			hrefs = new List<string>(); 
             HtmlDocument hDoc = new HtmlDocument();
             hDoc.Load(file);
             HtmlNode titleNode = getFirstNameOccurance(hDoc.DocumentNode.Descendants(), "title");

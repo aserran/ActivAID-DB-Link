@@ -1,10 +1,11 @@
-﻿using ActivAID_DB_Link;
+﻿//using ActivAID_DB_Link;
+using Parser;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Test;
+//using Test;
 
 namespace ActivAIDDatabaseLoad
 {

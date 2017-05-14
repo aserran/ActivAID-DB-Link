@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using OpenTextSummarizer;
 
-namespace Test
+namespace ActivAID
 {
     public abstract class KeyWordFinder
     {
@@ -78,9 +79,14 @@ namespace Test
 
         public static List<string> handleLineKeyWords(int top, string sentence)
         {
-            Dictionary<string, int> occuranceOfWord = new Dictionary<string, int>();
+            /*Dictionary<string, int> occuranceOfWord = new Dictionary<string, int>();
             insertIntoOccuranceDict(ref occuranceOfWord, sentence.Split(' '), 1);
-            return getTopKeyWords(top, occuranceOfWord, new List<string>());
+            return getTopKeyWords(top, occuranceOfWord, new List<string>());*/
+            List<string> sumList = new List<string>();
+            OpenTextSummarizer.SummarizerArguments args = new OpenTextSummarizer.SummarizerArguments();
+            args.InputString = String.Join(" ", sentence);
+            OpenTextSummarizer.SummarizedDocument sd = OpenTextSummarizer.Summarizer.Summarize(args);
+            return sd.Concepts;    
         }
 
         private static List<string> aggregateKeyWords(int top, List<List<string>> fileKeyWords)

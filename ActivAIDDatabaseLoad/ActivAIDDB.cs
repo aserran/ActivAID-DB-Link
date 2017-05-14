@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ActivAID_DB_Link
+namespace ActivAID
 {
     // port: 49172
     // login user name: sa
@@ -172,13 +172,40 @@ namespace ActivAID_DB_Link
                         {
                             elementList[blocknum].Add(data);
                         }
-                        List<string> block = new List<string>();
-                        block.Add(data);
-                        elementList.Add(blocknum, block);
+                        else
+                        {
+                            List<string> block = new List<string>();
+                            block.Add(data);
+                            elementList.Add(blocknum, block);
+                        }
                     }
                 }
             }
             return elementList;
+        }
+
+        public string[] getHyperlinks(string filepath)
+        {
+            
+            List<string> hyperlist = new List<string>();
+            int fileid = GetFileId(filepath);
+            using (conn = new SqlConnection(dblocation))
+            {
+                string getHyperlinks = "SELECT filePath FROM Hyperlinks WHERE fileId=@id";
+                SqlCommand cmd = new SqlCommand(getHyperlinks, conn);
+                cmd.Parameters.AddWithValue("@id", fileid);
+                conn.Open();
+                using (SqlDataReader hReader = cmd.ExecuteReader())
+                {
+                    while (hReader.Read())
+                    {
+                        string href = hReader["filePath"].ToString();
+                        hyperlist.Add(href);
+                    }
+                }
+            }
+            string[] hrefs = hyperlist.ToArray() as string[];
+            return hrefs;
         }
 
         // Utility Methods

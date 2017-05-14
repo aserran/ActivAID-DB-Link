@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 //using Test;
 
-namespace ActivAIDDatabaseLoad
+namespace ActivAID
 {
     class Program
     {

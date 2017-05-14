@@ -26,3 +26,7 @@ C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\bin\Debug\S
 C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.csprojResolveAssemblyReference.cache
 C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.exe
 C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.pdb
+C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\bin\Debug\Iron.Linq.Dynamic.dll
+C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\bin\Debug\OpenTextSummarizer.dll
+C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\bin\Debug\Iron.Linq.Dynamic.pdb
+C:\Users\Tony\Documents\GitHub\ActivAID-DB-Link\ActivAIDDatabaseLoad\bin\Debug\Iron.Linq.Dynamic.xml

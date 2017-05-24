@@ -16,7 +16,7 @@ namespace Parser
     {
         public List<List<Element>> blocks { get; set; }//= new List<List<Element>>(); //breadth first from root
         private List<Element> buff; //= new List<Element>();
-        public List<string> hrefs { get; set; } //= new List<string>();
+        public List<Tuple<string,string>> hrefs { get; set; } //= new List<string>();
         private string filePath;
         public string title;
 
@@ -136,7 +136,7 @@ namespace Parser
         {
             if (hNode.GetAttributeValue("href", "NaN") != "NaN")
             {
-                this.hrefs.Add(hNode.GetAttributeValue("href", "NaN"));
+                this.hrefs.Add(new Tuple<string,string>(hNode.InnerText, hNode.GetAttributeValue("href", "NaN")));
             }
             else
             {
@@ -166,7 +166,7 @@ namespace Parser
         public ParsedCHM(string file)
         {
 			buff = new List<Element>();
-			hrefs = new List<string>();
+			hrefs = new List<Tuple<string,string>>();
             blocks = new List<List<Element>>();
             HtmlDocument hDoc = new HtmlDocument();
             hDoc.Load(file);
@@ -210,9 +210,9 @@ namespace Parser
             Console.WriteLine("Elements: " + count);
             Console.WriteLine("Blocks: " + this.blocks.Count());
             Console.WriteLine("\nHyperLinks:");
-            foreach (string href in this.hrefs)
+            foreach (Tuple<string,string> href in this.hrefs)
             {
-                Console.WriteLine(href);
+                Console.WriteLine("text: " + href.Item1 + "\tlink: "+href.Item2);
             }
         }
     }

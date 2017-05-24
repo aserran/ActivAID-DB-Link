@@ -119,11 +119,11 @@ namespace Parser
             }
         }
 
-      private void insertHREFSOIntoDB(string filePath, List<string> hrefs)
+      private void insertHREFSOIntoDB(string filePath, List<Tuple<string,string>> hrefs)
         {
-            foreach (string href in hrefs)
+            foreach (Tuple<string, string> href in hrefs)
             {
-                db.insertIntoHyperlinks(filePath, href);
+                db.insertIntoHyperlinks(filePath, href.Item1, href.Item2);
             }
         }
 

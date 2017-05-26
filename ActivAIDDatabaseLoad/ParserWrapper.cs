@@ -40,7 +40,7 @@ namespace Parser
     class ParserWrapper
     {
         Dictionary<string, ParsedCHM> parsedCHMs;
-        ActivAIDDB db;
+       // ActivAIDDB db;
         RegexList fgexes;
         private void initializeFGEXES()
         {
@@ -59,10 +59,10 @@ namespace Parser
 
         public ParserWrapper(string filePath)
         {
-            db = new ActivAIDDB();
+           // db = new ActivAIDDB();
             Action<string> action = (str) =>
             {
-                db.insertIntoFiles(filePath);
+               /// db.insertIntoFiles(filePath);
                 parsedCHMs = new Dictionary<string, ParsedCHM>();
                 parsedCHMs[filePath] = new ParsedCHM(filePath);
                 initializeFGEXES();
@@ -85,11 +85,11 @@ namespace Parser
 
         public ParserWrapper(List<string> filePaths)
         {
-            db = new ActivAIDDB();
+            //db = new ActivAIDDB();
             parsedCHMs = new Dictionary<string, ParsedCHM>();
             foreach (string file in filePaths)
             {
-                db.insertIntoFiles(file);
+              //  db.insertIntoFiles(file);
                 parsedCHMs[file] = new ParsedCHM(file);
             }
             initializeFGEXES();
@@ -111,8 +111,8 @@ namespace Parser
                     }
                     else
                     {
-                        
-                        db.insertIntoElements(filePath, blockCount, element.data);
+
+                        ;// db.insertIntoElements(filePath, blockCount, element.data);
                     }
                     ++blockCount;
                 }
@@ -123,7 +123,7 @@ namespace Parser
         {
             foreach (Tuple<string, string> href in hrefs)
             {
-                db.insertIntoHyperlinks(filePath, href.Item1, href.Item2);
+                ;// db.insertIntoHyperlinks(filePath, href.Item1, href.Item2);
             }
         }
 
@@ -188,7 +188,7 @@ namespace Parser
                 regexPattern += str;
                 ++count;
             }
-            return regexPattern;
+            return lemAndStem(regexPattern);
         }
 
 
@@ -226,6 +226,39 @@ namespace Parser
 
         }
 
+
+        private bool addTruncatedWord(string toExtend, string truncated, string str)
+        {
+            return str == truncated.Trim() && !Regex.IsMatch(truncated.Trim(), toExtend);
+        }
+
+        private string lemAndStem(string toExtend)
+        {
+            List<string> retList = new List<string>();
+            string replaced;
+            foreach (string str in toExtend.Split('|'))
+            {
+                replaced = Regex.Replace(str, "ed$", "");
+                if (addTruncatedWord(toExtend, replaced, str.Trim()))
+                {
+                    retList.Add(replaced.Trim());
+                }
+                replaced = " " + Regex.Replace(str, "ing$", "");
+                if (addTruncatedWord(toExtend, replaced, str.Trim()))
+                {
+                    retList.Add(replaced.Trim());
+                }
+                replaced = " " + Regex.Replace(str, "s$", "");
+                if (addTruncatedWord(toExtend, replaced, str.Trim()))
+                {
+                    retList.Add(replaced.Trim());
+                }
+            }
+            List<string> toExtendList = new List<string>(toExtend.Split('|'));
+            toExtendList.AddRange(retList);
+            return Regex.Replace(String.Join("|", retList), @"\s", "");
+        }
+
         private void insertRegexIntoConfig()
         {
             using (Stream fileStream = new FileStream("config_patterns.xml", FileMode.Create, FileAccess.Write, FileShare.None))
@@ -249,28 +282,7 @@ namespace Parser
             }
             insertRegexIntoConfig();
         }
-
-        /*public void genModel()
-        {
-            List<List<string>> fileKeyWords = new List<List<string>>();
-            List<string> responseFileNames = new List<string>();
-            string response;
-            foreach (var pair in parsedCHMs)
-            {
-                List<string> keywords = new List<string>(); 
-                responseFileNames.Add(pair.Key);
-                keywords.AddRange(KeyWordFinder.handleLineKeyWords(5,pair.Value.title));//keywords weighted by ordering in which they appear in list
-                keywords.AddRange(KeyWordFinder.concatAllKeyWords(5, pair.Value.blocks, keywords));
-                fileKeyWords.Add(keywords);
-            }
-            response = String.Join(";", responseFileNames.ToArray());
-            //aggregateKeyWords(fileKeyWords)
-            //Console.WriteLine(response);
-            foreach (string keyword in keywords)
-            {
-                Console.WriteLine(keyword);
-            }
-        }*/
+        
     }
 }
 

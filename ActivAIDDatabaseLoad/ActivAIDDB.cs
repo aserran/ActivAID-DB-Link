@@ -8,9 +8,6 @@ using System.Threading.Tasks;
 
 namespace ActivAID
 {
-    // port: 49172
-    // login user name: sa
-    // password: activaid
     class ActivAIDDB
     {
         private SqlConnection conn;
@@ -20,16 +17,17 @@ namespace ActivAID
         public ActivAIDDB()
         {
             string dbName = Environment.GetEnvironmentVariable("DBNAME");
-            string serverName = Environment.GetEnvironmentVariable("SERVERNAME");
-            dblocation = "Server=.;Database=" + dbName + ";Integrated Security=true";
+            string serverName = Environment.GetEnvironmentVariable("SERVER");
+            dblocation = "Server=.\\SQLEXPRESS;Database="+dbName+";Integrated Security=true";
+            //dblocation = "Server=.\\SQLEXPRESS;Database=" + dbName + ";Integrated Security=true";
             // elementCounter = 0;
             builder = new SqlConnectionStringBuilder();
-           // builder.DataSource = @"DEVIIX\SQLEXPRESS"; // CHANGE THIS TO YOUR OWN SERVER
+            builder.DataSource = serverName; // CHANGE THIS TO YOUR OWN SERVER
             //builder.DataSource = "IP Address\SQLEXPRESS, 49172"
-           // builder.InitialCatalog = "ActivAID DB";
+            builder.InitialCatalog = dbName;// "ActivAID DB TEST";
             builder.IntegratedSecurity = false;
-           // builder.UserID = "sa";
-           // builder.Password = "activaid";
+            builder.UserID = "sa";
+            builder.Password = "activaid";
 
         }
 
@@ -60,13 +58,13 @@ namespace ActivAID
                 using (conn = new SqlConnection())
                 {
                     conn.ConnectionString = builder.ConnectionString;
-                    string hyperQuery = "INSERT INTO Hyperlinks (fileId, filePath, text, filename) VALUES (@id, @path, @text, @fname)";
+                    string hyperQuery = "INSERT INTO Hyperlinks (fileId, filePath, filename, text) VALUES (@id, @path, @fname, @text)";
                     SqlCommand cmd = new SqlCommand(hyperQuery, conn);
                     cmd.Parameters.AddWithValue("@id", parentId);
                     cmd.Parameters.AddWithValue("@path", filepath);
-                    cmd.Parameters.AddWithValue("@text", text);
                     string fname = System.IO.Path.GetFileName(filepath);
                     cmd.Parameters.AddWithValue("@fname", fname);
+                    cmd.Parameters.AddWithValue("@text", text);
                     cmd.Connection = conn;
                     conn.Open();
                     cmd.ExecuteNonQuery();

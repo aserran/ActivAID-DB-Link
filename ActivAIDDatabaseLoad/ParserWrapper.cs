@@ -46,7 +46,7 @@ namespace Parser
         {
             try
             {
-                System.IO.StreamReader str = new System.IO.StreamReader(@"config_patterns.xml");
+                System.IO.StreamReader str = new System.IO.StreamReader(@"Patterns.exe.config");
                 System.Xml.Serialization.XmlSerializer xSerializer = new System.Xml.Serialization.XmlSerializer(typeof(RegexList));
                 fgexes = (RegexList)xSerializer.Deserialize(str);
                 str.Close();
@@ -228,7 +228,7 @@ namespace Parser
 
         private void insertRegexIntoConfig()
         {
-            using (Stream fileStream = new FileStream("config_patterns.xml", FileMode.Create, FileAccess.Write, FileShare.None))
+            using (Stream fileStream = new FileStream("Patterns.exe.config", FileMode.Create, FileAccess.Write, FileShare.None))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(RegexList));
                 serializer.Serialize(fileStream, fgexes);

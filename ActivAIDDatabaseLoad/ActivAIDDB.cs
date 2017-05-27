@@ -17,18 +17,15 @@ namespace ActivAID
         public ActivAIDDB()
         {
             string dbName = Environment.GetEnvironmentVariable("DBNAME");
-            string serverName = Environment.GetEnvironmentVariable("SERVER");
-            dblocation = "Server=.\\SQLEXPRESS;Database="+dbName+";Integrated Security=true";
-            //dblocation = "Server=.\\SQLEXPRESS;Database=" + dbName + ";Integrated Security=true";
-            // elementCounter = 0;
+            string serverName = Environment.GetEnvironmentVariable("SERVERNAME");
+            dblocation = "Server=.;Database=" + dbName + ";Integrated Security=true";
             builder = new SqlConnectionStringBuilder();
-            builder.DataSource = serverName; // CHANGE THIS TO YOUR OWN SERVER
+            //builder.DataSource = serverName; // CHANGE THIS TO YOUR OWN SERVER
             //builder.DataSource = "IP Address\SQLEXPRESS, 49172"
-            builder.InitialCatalog = dbName;// "ActivAID DB TEST";
+            //builder.InitialCatalog = dbName;
             builder.IntegratedSecurity = false;
-            builder.UserID = "sa";
-            builder.Password = "activaid";
-
+            //builder.UserID = "sa";
+            //builder.Password = "activaid";
         }
 
         public void insertIntoFiles(string filepath)// string keywords)

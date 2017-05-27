@@ -161,7 +161,7 @@ namespace Parser
             {
                 var temp = x;
                 new HTMLMessager().removeFromLine(ref temp);
-                temp = new Regex("[=\\|\n\t\r;'/,<>%!]").Replace(temp, "");
+                temp = new Regex("[=\\|\n\t\r;'/,<>%!}{]").Replace(temp, "");
                 return temp;
             });
             // Need to change
@@ -172,6 +172,37 @@ namespace Parser
             return sd.Concepts.Take(5).ToArray();
         }
 
+        private bool addTruncatedWord(string toExtend, string truncated, string str)
+        {
+            return !Regex.IsMatch(@"\|"+truncated.Trim()+@"\|", toExtend);
+        }
+
+        private string lemAndStem(string toExtend)
+        {
+            List<string> retList = new List<string>();
+            string replaced;
+            foreach (string str in toExtend.Trim().Split('|'))
+            {
+                replaced = Regex.Replace(str, "ed$", "");
+                if (addTruncatedWord(toExtend, replaced, str.Trim()))
+                {
+                    retList.Add(replaced.Trim());
+                }
+                replaced = " " + Regex.Replace(str, "ing$", "");
+                if (addTruncatedWord(toExtend, replaced, str.Trim()))
+                {
+                    retList.Add(replaced.Trim());
+                }
+                replaced = " " + Regex.Replace(str, "s$", "");
+                if (addTruncatedWord(toExtend, replaced, str.Trim()))
+                {
+                    retList.Add(replaced.Trim());
+                }
+            }
+            List<string> toExtendList = new List<string>(toExtend.Split('|'));
+            toExtendList.AddRange(retList);
+            return Regex.Replace(String.Join("|", toExtendList), @"\s", "");
+        }
 
         private string generateRegexPatterns(string fileName, List<string> elementData)
         {
@@ -188,7 +219,7 @@ namespace Parser
                 regexPattern += str;
                 ++count;
             }
-            return regexPattern;
+            return lemAndStem(regexPattern);
         }
 
 
@@ -214,7 +245,7 @@ namespace Parser
             }
             return elementData;
         }
-        //tup.Item2.Select((x) => stringOp(x)).ToArray()
+
         private void getRegexPerFile(string filePath, List<List<Element>> blocks)
         {
             List<string> elementData = aggregateElementData(blocks);
@@ -245,7 +276,7 @@ namespace Parser
             {
                 getRegexPerFile(pair.Key, pair.Value.blocks);
                 insertBlocksIntoDB(pair.Key, pair.Value.blocks);
-                //insertHREFSOIntoDB(pair.Value.title, pair.Value.hrefs);
+                insertHREFSOIntoDB(pair.Value.title, pair.Value.hrefs);
                 insertHREFSOIntoDB(pair.Key, pair.Value.hrefs);
             }
             insertRegexIntoConfig();

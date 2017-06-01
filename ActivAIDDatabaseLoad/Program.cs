@@ -14,7 +14,7 @@ namespace ActivAID
         static void Main(string[] args)
         {
             // Change directory path to your own
-            List<string> filePaths = DirectoryLoader.makeFileList("C:\\Program Files\\ActivATE\\ActivATE 5.x\\ActivAID\\Help Html");
+            List<string> filePaths = DirectoryLoader.makeFileList("C:\\Program Files\\ActivATE\\ActivATE 5.x\\ActivAID\\Help\\Html");
             ParserWrapper pwrap = new ParserWrapper(filePaths);
         }
     }

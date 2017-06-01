@@ -1,0 +1,1301 @@
+<?xml version="1.0"?>
+<patterns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePatternsArray>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AddingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AdvancedFeatures.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ClientSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CommandWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ConstantDefinitions.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDrivers.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart2.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart3.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CustomizeMenuItems.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerCommands.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerOverview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeleteUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeletingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DotNetTestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DriverConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditMenu_EditToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ExecuteOnTerminating.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\FileMenu_StandardToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportStatement.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LocalsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LoginManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MacroRecord.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MenusAndToolbars.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ModifiyingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewGroup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTest.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NodeDragDrop.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NullScriptName.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\OptionsDialog.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Overview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Creation.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_DataFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Usage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageOptionsPlugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Plugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PredefinedObjects.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProjectManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PropertiesPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProtectFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientDisconnecting.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientSetup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteRunningTests.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ReportCustomize.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RunningTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SaveConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptTraceLogWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ServerSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartPage_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartupPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg3.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Templates.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramManager.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultProps_TestNodes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResults.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsFile.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceView.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceViewContextMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestTypes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ToolsMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TracelogObject.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\UsingTheSDK.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WatchWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WindowMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AddingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AdvancedFeatures.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ClientSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CommandWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ConstantDefinitions.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDrivers.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart2.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart3.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CustomizeMenuItems.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerCommands.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerOverview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeleteUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeletingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DotNetTestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DriverConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditMenu_EditToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ExecuteOnTerminating.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\FileMenu_StandardToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportStatement.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LocalsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LoginManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MacroRecord.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MenusAndToolbars.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ModifiyingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewGroup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTest.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NodeDragDrop.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NullScriptName.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\OptionsDialog.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Overview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Creation.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_DataFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Usage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageOptionsPlugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Plugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PredefinedObjects.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProjectManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PropertiesPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProtectFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientDisconnecting.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientSetup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteRunningTests.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ReportCustomize.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RunningTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SaveConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptTraceLogWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ServerSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartPage_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartupPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg3.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Templates.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramManager.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultProps_TestNodes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResults.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsFile.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceView.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceViewContextMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestTypes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ToolsMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TracelogObject.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\UsingTheSDK.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WatchWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WindowMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AddingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AdvancedFeatures.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ClientSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CommandWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ConstantDefinitions.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDrivers.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart2.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart3.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CustomizeMenuItems.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerCommands.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerOverview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeleteUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeletingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DotNetTestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DriverConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditMenu_EditToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ExecuteOnTerminating.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\FileMenu_StandardToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportStatement.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LocalsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LoginManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MacroRecord.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MenusAndToolbars.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ModifiyingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewGroup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTest.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NodeDragDrop.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NullScriptName.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\OptionsDialog.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Overview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Creation.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_DataFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Usage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageOptionsPlugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Plugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PredefinedObjects.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProjectManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PropertiesPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProtectFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientDisconnecting.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientSetup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteRunningTests.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ReportCustomize.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RunningTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SaveConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptTraceLogWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ServerSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartPage_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartupPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg3.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Templates.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramManager.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultProps_TestNodes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResults.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsFile.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceView.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceViewContextMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestTypes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ToolsMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TracelogObject.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\UsingTheSDK.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WatchWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WindowMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AddingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\AdvancedFeatures.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ClientSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CommandWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ConstantDefinitions.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDrivers.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart2.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CreatingDriversPart3.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\CustomizeMenuItems.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerCommands.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DebuggerOverview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeleteUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DeletingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DotNetTestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\DriverConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditMenu_EditToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\EditUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ExecuteOnTerminating.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\FileMenu_StandardToolbar.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\GroupNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ImportStatement.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LocalsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\LoginManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MacroRecord.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\MenusAndToolbars.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ModifiyingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewGroup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTest.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NewUser.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NodeDragDrop.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\NullScriptName.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\OptionsDialog.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Overview.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Creation.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_DataFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageMngr_Usage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PackageOptionsPlugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Plugins.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PredefinedObjects.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProjectManager.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\PropertiesPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ProtectFiles.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientDisconnecting.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteClientSetup.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RemoteRunningTests.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ReportCustomize.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\RunningTestProgram.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SaveConfiguration.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptErrors.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ScriptTraceLogWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ServerSide.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartPage_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\StartupPage.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg2.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\SystemController_pg3.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\Templates.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestNodeTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramManager.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramProps.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestPrograms.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestProgramTemplates.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultProps_TestNodes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResults.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsFile.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestResultsWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceView.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestSequenceViewContextMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TestTypes.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ToolsMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\TracelogObject.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\UsingTheSDK.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewingDrivers.htm</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\ViewMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WatchWindow.html</fileName>
+      <pattern />
+    </FileRegex>
+    <FileRegex>
+      <fileName>C:\Users\Matthew\Desktop\Main Help\Main Help\JUSTHTML\WindowMenu.html</fileName>
+      <pattern />
+    </FileRegex>
+  </filePatternsArray>
+</patterns>

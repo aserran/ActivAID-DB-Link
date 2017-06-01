@@ -43,3 +43,12 @@ C:\Users\Matthew\Desktop\191B\ActivAID-DB-Link\ActivAIDDatabaseLoad\bin\Debug\Sy
 C:\Users\Matthew\Desktop\191B\ActivAID-DB-Link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.csprojResolveAssemblyReference.cache
 C:\Users\Matthew\Desktop\191B\ActivAID-DB-Link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.exe
 C:\Users\Matthew\Desktop\191B\ActivAID-DB-Link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.pdb
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\bin\Debug\ActivAIDDatabaseLoad.exe.config
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.exe
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.pdb
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\bin\Debug\ActivAIDDatabaseLoad.exe
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\bin\Debug\ActivAIDDatabaseLoad.pdb
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\bin\Debug\Iron.Linq.Dynamic.dll
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\bin\Debug\Iron.Linq.Dynamic.pdb
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\bin\Debug\Iron.Linq.Dynamic.xml
+D:\SeniorDesign\ActivAID\db_parser_link\ActivAIDDatabaseLoad\obj\Debug\ActivAIDDatabaseLoad.csprojResolveAssemblyReference.cache

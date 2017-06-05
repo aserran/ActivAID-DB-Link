@@ -12,31 +12,17 @@ namespace ActivAID
     {
         private SqlConnection conn;
         private string dblocation;
-        private SqlConnectionStringBuilder builder;
-        // private int elementCounter;
         public ActivAIDDB()
         {
-            //string dbName = Environment.GetEnvironmentVariable("DBNAME");
             string dbName = "ActivAID DB";
-            //string serverName = Environment.GetEnvironmentVariable("SERVER");
-            string serverName = "localhost\\SQLEXPRESS";
+            string serverName = Environment.GetEnvironmentVariable("SERVER");
             dblocation = "Server="+serverName+";Database=" + dbName + ";Integrated Security=true";
-            //dblocation = "Server=.\\SQLEXPRESS;Database=" + dbName + ";Integrated Security=true";
-            // elementCounter = 0;
-            //builder = new SqlConnectionStringBuilder();
-            //builder.DataSource = serverName; // CHANGE THIS TO YOUR OWN SERVER
-            //builder.DataSource = "IP Address\SQLEXPRESS, 49172"
-            //builder.InitialCatalog = dbName;// "ActivAID DB TEST";
-            //builder.IntegratedSecurity = false;
-            //builder.UserID = "sa";
-            //builder.Password = "activaid";
         }
 
         public void insertIntoFiles(string filepath)// string keywords)
         {
             using (conn = new SqlConnection(dblocation))
             {
-                //conn.ConnectionString = builder.ConnectionString;
                 string fileQuery = "INSERT INTO Files (filePath, filename) VALUES (@file, @filename)";
                 SqlCommand cmd = new SqlCommand(fileQuery, conn);
                 cmd.Parameters.AddWithValue("@file", filepath);
@@ -58,7 +44,6 @@ namespace ActivAID
 
                 using (conn = new SqlConnection(dblocation))
                 {
-                    //conn.ConnectionString = builder.ConnectionString;
                     string hyperQuery = "INSERT INTO Hyperlinks (fileId, filePath, filename, text) VALUES (@id, @path, @fname, @text)";
                     SqlCommand cmd = new SqlCommand(hyperQuery, conn);
                     cmd.Parameters.AddWithValue("@id", parentId);
@@ -76,15 +61,12 @@ namespace ActivAID
 
         public void insertIntoElements(string parentpath, int block, string data)
         {
-            // bug here, check what the parentpath is and how a parentId is determined
-            // incElementCounter();
             int parentId = GetFileId(parentpath);
             Console.WriteLine(parentId);
             if (parentId > 0)
             {
                 using (conn = new SqlConnection(dblocation))
                 {
-                    //conn.ConnectionString = builder.ConnectionString;
                     string elementQuery = "INSERT INTO Elements (fileId, blockNumber, data) VALUES (@id, @block, @dat)";
                     SqlCommand cmd = new SqlCommand(elementQuery, conn);
                     cmd.Parameters.AddWithValue("@id", parentId);
@@ -102,7 +84,6 @@ namespace ActivAID
         {
             using (conn = new SqlConnection(dblocation))
             {
-                //conn.ConnectionString = builder.ConnectionString;
                 string imageQuery = "INSERT INTO Images (elementId, elementImg) VALUES (@id, @path)";
                 SqlCommand cmd = new SqlCommand(imageQuery, conn);
                 cmd.Parameters.AddWithValue("@id", elid);
@@ -223,21 +204,11 @@ namespace ActivAID
                 string getid = "SELECT fileId FROM Files WHERE filename LIKE '%' + @fname + '%'";
                 SqlCommand cmd = new SqlCommand(getid, conn);
                 cmd.Parameters.AddWithValue("@path", "'"+filepath.Replace(@"\",@"\\")+"'");
-                //int start = filepath.Length - 15;
-                //int end = 8;
                 string filename = System.IO.Path.GetFileNameWithoutExtension(filepath);
                 cmd.Parameters.AddWithValue("@fname", filename);
                 conn.Open();
-                //Console.WriteLine(filepath.Substring(start, end));
-                //Console.WriteLine(filepath);
                 using (SqlDataReader fReader = cmd.ExecuteReader())
-                {
-                    /*
-                    fReader.Read();
-                    Console.WriteLine(fReader[0]);
-                    fileid = fReader.GetInt32(0);
-                    */
-                    
+                {                    
                     if (fReader.Read())
                     {
                         fileid = fReader.GetInt32(0);
@@ -247,8 +218,6 @@ namespace ActivAID
                     {
                         fileid = -1;
                     }
-
-                    //fileid = -1;
                 }
               
             }
@@ -262,23 +231,5 @@ namespace ActivAID
                     orderby grp.Count() descending
                     select grp.Key).First();
         }
-
-        /*
-        private int getElementId()
-        {
-            returns the element counter once
-            a boolean flag indicating it is an image element is 
-            detected. Boolean flag would be passed from the Parser.
-        }
-
-        private void incElementCounter()
-        {
-            increments the element counter according to how
-            each element id is incremented in the database table.
-            Called everytime an element is added into the database.
-        }
-
-                
-        */
     }
 }
